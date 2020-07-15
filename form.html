@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Forms</title>
+        <link rel="stylesheet" href="../GALLERY/CSS/style.css">
+    </head>
+    <body>
+
+        <div id="container">
+            <!-- Navigation Area -->
+            <nav>
+                <a href="index.html" id="logo">PlaceHer <span>Gallery</span></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <!-- content Area -->
+
+            <div id="form-area">
+                <form action="">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                            <label for="first Name">First Name</label>
+                            <input type="text" placeholder="enter your name" name="firstName" maxlength="20" required><br><br>
+                            <label for="location">Location</label>
+                            <input type="text" placeholder="enter current location" name="location" maxlength="50"><br><br>
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="enter your email" name="email" maxlength="30" required><br><br>
+                            <label for="phone number">Phone Number</label>
+                            <input type="number" placeholder="enter your phone number" maxlength="11" name="phoneNumber"><br><br>
+                            <label for="amount">Amount</label>
+                            <input type="number" value="5000"><br><br>
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="enter your password" maxlength="13"><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Other Info</legend>
+                            Pick a Food:
+                            <select name="food" id="">
+                                <option value="select" disabled>--select--</option>
+                                <option value="popcorn">popcorn</option>
+                                <option value="pizza">pizza</option>
+                                <option value="indomie">indomie</option>
+                                <option value="rice">rice</option>
+                            </select><br><br>
+
+                            what do you do in your spare time?<br>
+                            sports: <input type="checkbox" name="spareTime" value="sport" id="">
+                            read books: <input type="checkbox" name="spareTime" value="read">
+                            play computer games: <input type="checkbox" name="spareTime" value="games"><br><br>
+
+                            Gender: <br>
+                            female <input type="radio" name="gender" value="female">
+                            male <input type="radio" name="gender" value="male">
+                            other <input type="radio" name="gender" value="other"><br><br>
+
+
+                            Tell us about yourself: <br>
+                            <textarea name="about" id="" cols="50" rows="15"></textarea><br><br>
+                            <input type="file"><br><br>
+                            <input type="button" value="get started"><br>
+                    </fieldset><br>
+                            <input type="submit" value="submit">
+                            <input type="reset" value="reset">
+                    
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; Place Her 2020 | All Rights Reserved</p>
+        </footer>
+
+        
+    </body>
+</html>

@@ -1,0 +1,143 @@
+front end==== user interface
+
+backend ====== server site
+
+static and dynamic site
+
+
+          
+            BOX MODEL
+key to box model is ==== Margin and Padding
+===Margin is space in between two independent entities... external space
+===Padding is when a parent element is shifting or creating space between itself and the child element.
+but if the child element is shifting from the parent element, its called margin...
+3 values in padding signifies=== top, right and left, 
+4 values signifies === top, right, bottom, left.
+
+WIREFRAME/MURKUP/LAYOUT
+
+ASSIGNMENT
+==== WORK ON FOOTER===
+width of container = 1050
+
+FORM ELEMENTS
+==for collection of data using front end
+form action= the route we use to collect and send data to the backend
+form method=(POST or GEt) backend also. how the data should be displayed.
+input type= input is a text field
+name attribute== snake casing(first_name) or camel casing(firstName). 
+this attribute is used to draw out data from the backend.
+Size== number of characters for a text field
+maxlength==limited number of characters to be entered
+option value== to send the value to the database.
+ we always give transition on d normal state of an image and not the hover state
+
+  <div class="content-area">
+                <h1>Contact</h1><br>
+
+                <div class="section1">
+                    <div id="sect1">
+                        <h3>address:</h3>
+                        <p>
+                            3rd Floor Taen Business Complex Opposite former NITEL Office,
+                             Old Airport Junction, Jos, Plateau 
+                            State , Nigeria 
+                        </p>
+                    </div>
+                    <div id="sect2">
+                        <h3>phone number(s):</h3> <br>
+                        +234 806 864 0710 <br><br>
+                        +234 703 563 9491
+                    </div>
+                    <div id="sect3">
+                        <h3  >also Contact us on:</h3><br>
+                        <a href="facebook.com"><img src="./Images/facebook_logo.png" alt=""></a>
+                        <a href="twitter.com"><img src="./Images/twitter_logo.png" alt=""></a>
+                        <a href="youtube.com"><img src="./Images/youtube_logo.png" alt=""></a>
+                        <a href="linkedIn.com"><img src="./Images/linkedin_logo.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="section2">
+                    <form action="">
+                        <div id="fn">
+                            <label for="">Full Name:</label><br>
+                            <input type="text" name="fullName" placeholder="Enter full name" id="">
+                        </div>
+                        <div id="eadd">
+                            <label for="">Email Address:</label><br>
+                            <input type="email" placeholder="Enter email">
+                        </div>
+                        <div>
+                            <label for="">Message:</label><br>
+                            <textarea name="message" id="" cols="40" rows="7" placeholder="your message"></textarea>
+                        </div>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        CSS
+
+        .content-area{
+    width: 1046px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(159, 201, 197);
+    /* text-align: justify; */
+    /* border: 2px solid red; */
+    /* border-radius: 50px; */
+}
+.content-area h1{
+    text-align: center;
+}
+.section1{
+    border: 2px solid black;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 2px;
+}
+#sect1{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#sect2{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#sect3{
+    border: 2px solid black;
+    width: 320px;
+    height: 20vh;
+    float: left;
+    margin: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.section2{
+    /* border: 2px solid black; */
+    width:100%;
+    height: 40vh;
+    text-align: center;
+    margin-top: 2px;
+    text-align: center;
+    /* padding: 10px; */
+}
+
